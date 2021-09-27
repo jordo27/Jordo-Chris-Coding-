@@ -4,3 +4,7 @@ def wanker_program():
 
 context = ["jordo","haminis","christoph"]
 wanker_program()
+
+def jordo_wanker():
+    for letter in "wanker":
+        print("jordo is a", letter)
