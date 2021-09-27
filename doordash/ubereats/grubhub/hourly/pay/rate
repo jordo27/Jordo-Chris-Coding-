@@ -1,0 +1,16 @@
+hourly_rate = [18,29,40
+hours_worked = 40
+weeks_ayear = 52
+
+#for rate in hourly_rate:
+    #salary = rate * hours_worked * weeks_ayear
+salary = hourly_rate*hours_worked*weeks_ayear
+
+insurance_cost = 4600
+hours_for_insurance = (insurance_cost / weeks_ayear)/hours_worked
+
+print(hours_for_insurance)
+print(hourly_rate - hours_for_insurance)
+
+adjusted_pay = (hourly_rate - hours_for_insurance) * hours_worked * weeks_ayear
+print(adjusted_pay/4)
