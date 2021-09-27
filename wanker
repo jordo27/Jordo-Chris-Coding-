@@ -1,0 +1,6 @@
+def wanker_program():
+    for word in context:
+        print(word)
+
+context = ["jordo","haminis","christoph"]
+wanker_program()
